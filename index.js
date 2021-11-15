@@ -3,7 +3,7 @@ const {
     TOKEN
 } = require("./config");
 const bot = new TelegramBot(TOKEN, {
-    webHook: true
+    polling: true
 });
 
 const main = async (msg) => {
